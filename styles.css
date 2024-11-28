@@ -6,6 +6,11 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: normal;
+}
+
 /* Black background color */
 .topnav {
   background-color: #333;
