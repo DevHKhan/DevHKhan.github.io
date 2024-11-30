@@ -11,6 +11,10 @@ h2 {
   font-weight: normal;
 }
 
+img {
+    border: 5px solid #fff;
+}
+
 /* Black background color */
 .topnav {
   background-color: #333;
