@@ -15,9 +15,7 @@ alphabet_container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  align-items: center;
   gap: 10px;
-  padding: 10px;
 }
 
 alphabet_img {
@@ -25,13 +23,6 @@ alphabet_img {
   height: 187px;
   object-fit: cover;
   border: 2px solid #000;
-}
-
-img {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  border: 5px solid #000;
 }
 
 /* Black background color */
