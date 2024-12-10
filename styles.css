@@ -13,6 +13,7 @@ h2 {
 
 img {
     border: 5px solid #000;
+    justify-content: center;
 }
 
 /* Black background color */
