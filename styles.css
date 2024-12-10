@@ -11,13 +11,13 @@ h2 {
   font-weight: normal;
 }
 
-alphabet_container {
+.alphabet_container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row-reverse;
 }
 
-alphabet_img {
+.alphabet_img {
   border: 2px solid #000;
 }
 
