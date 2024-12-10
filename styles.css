@@ -16,6 +16,7 @@ h2 {
   flex-wrap: wrap;
   flex-direction: row-reverse;
   justify-content: center;
+  gap: 5px;
 }
 
 .alphabet_img {
