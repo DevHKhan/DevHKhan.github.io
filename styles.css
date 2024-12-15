@@ -16,6 +16,13 @@ p {
   font-weight: normal;
 }
 
+body {
+  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
 .alphabet_container {
   display: flex;
   flex-wrap: wrap;
@@ -26,6 +33,14 @@ p {
 
 .alphabet_img {
   border: 2px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.alphabet_img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Black background color */
