@@ -11,6 +11,11 @@ h2 {
   font-weight: normal;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
 .alphabet_container {
   display: flex;
   flex-wrap: wrap;
