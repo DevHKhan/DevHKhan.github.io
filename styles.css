@@ -17,10 +17,40 @@ p {
 }
 
 body {
-  background: linear-gradient(to bottom, #f8f9fa, #e9ecef);
+  /* background: linear-gradient(to bottom, #f8f9fa, #e9ecef); */
   color: #333;
   margin: 0;
   padding: 0;
+}
+
+.info {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.info .info-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px 9px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 10;
+  bottom: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.info:hover .info-text {
+  visibility: visible;
+  opacity: 1;
 }
 
 .alphabet_container {
@@ -31,7 +61,7 @@ body {
   gap: 5px;
 }
 
-.alphabet_img {
+.alphabet_container .alphabet_img {
   border: 2px solid #000;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
