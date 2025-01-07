@@ -61,7 +61,7 @@ body {
   gap: 5px;
 }
 
-.alphabet_img {
+.alphabet_container .alphabet_img {
   width: 90px;
   height: 180px;
   border: 2px solid #000;
@@ -73,6 +73,15 @@ body {
 .alphabet_img:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.alphabet_example {
+  width: 240px;
+  height: 180px;
+  border: 2px solid #000;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
 }
 
 /* Black background color */
