@@ -61,10 +61,6 @@ body {
   max-width: 80%;
 }
 
-/* .alphabet_legend {
-  height: auto;
-} */
-
 .alphabet_container {
   display: flex;
   flex-wrap: wrap;
