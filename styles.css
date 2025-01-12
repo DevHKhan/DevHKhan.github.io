@@ -21,6 +21,13 @@ body {
   padding: 0;
 }
 
+.bg {
+  opacity: 40%;
+  background-image: url('/assets/sabeer_darr_swat_pakistan.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
 .info {
   position: relative;
   display: inline-block;
