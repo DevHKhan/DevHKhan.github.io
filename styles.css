@@ -109,6 +109,7 @@ body {
 
 /* Black background color */
 .topnav {
+  font-family: Unna;
   background-color: #333;
   overflow: hidden;
 }
