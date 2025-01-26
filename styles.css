@@ -60,7 +60,7 @@ body {
   gap: 5px;
 }
 
-.alphabet_container .alphabet_img {
+.alphabet_img {
   width: 90px;
   height: 180px;
   border: 3px solid #444;
