@@ -1,3 +1,5 @@
 function diacritic_answer () {
-    document.getElementById('diacritic_q1').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    setTimeout(() => {
+        document.getElementById('diacritic_q1').scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 300);
 }
