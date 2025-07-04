@@ -12,6 +12,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+p[class="text-pashto"] {
+  font-family: 'Amiri', sans-serif;
+}
+
 ol[class="breadcrumb"] {
   background-color: transparent;
 }
