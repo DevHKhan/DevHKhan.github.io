@@ -101,4 +101,5 @@ ol[class="breadcrumb"] {
 .text-pashto {
   font-family: 'Amiri', sans-serif;
   direction: rtl;
+  unicode-bidi: isolate;
 }
