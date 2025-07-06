@@ -103,3 +103,7 @@ ol[class="breadcrumb"] {
   direction: rtl;
   unicode-bidi: isolate;
 }
+
+.bg-pak {
+  background-color: #00401a;
+}
