@@ -104,6 +104,10 @@ ol[class="breadcrumb"] {
   unicode-bidi: isolate;
 }
 
-.bg-sky-blue {
-  background-color: #87ceeb;
+.bg-first-color {
+  background-color: #31473a;
+}
+
+.bg-second-color {
+  background-color: #edf4f2;
 }
