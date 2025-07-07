@@ -10,11 +10,12 @@ function diacritic_answer2 () {
     }, 300);
 }
 
+let scrollProgress = document.getElementById('scroll_progress');
+let pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
 function getScrollProgress() {
-    let percentProgress = (scrollY / pageHeight) * 100;
+    let percentProgress = (window.scrollY / pageHeight) * 100;
     scrollProgress.style.width = percentProgress + '%';
 }
 
-let scrollProgress = document.getElementById('scroll_progress');
-let pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 window.onscroll = getScrollProgress;
