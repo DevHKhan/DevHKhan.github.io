@@ -143,3 +143,20 @@ a::after {
 a:hover::after {
   width: 100%;
 }
+
+/* Make h1 elements slide in from the top of the screen */
+
+@keyframes h1slide {
+  0% {
+    transform: translateY(-500%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h1 {
+  text-align: center;
+  animation: h1slide 1s ease-in-out;
+}
