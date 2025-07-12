@@ -13,7 +13,7 @@ function diacritic_answer2 () {
 let scrollProgress = document.getElementById('scroll_progress');
 
 function getScrollProgress() {
-    let pageHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    let pageHeight = document.body.scrollHeight - window.innerHeight;
     let percentProgress = (window.scrollY / pageHeight) * 100;
     scrollProgress.style.width = percentProgress + '%';
 }
