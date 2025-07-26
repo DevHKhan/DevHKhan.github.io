@@ -21,7 +21,7 @@
 
         <img
           class="img-thumbnail"
-          src="/assets/alphabet_example.png"
+          :src="alphabet_example"
           alt="Example of how I arranged the letters"
         />
       </div>
@@ -42,98 +42,75 @@
       <div
         class="d-flex flex-wrap justify-content-center flex-row-reverse gap-1 mb-5"
       >
-        <img class="img-thumbnail" src="/assets/alif_isolated.png" alt="alif" />
-        <img class="img-thumbnail" src="/assets/be_isolated.png" alt="be" />
-        <img class="img-thumbnail" src="/assets/pe_isolated.png" alt="pe" />
-        <img class="img-thumbnail" src="/assets/te_isolated.png" alt="te" />
+        <img class="img-thumbnail" :src="alif_isolated" alt="alif" />
+        <img class="img-thumbnail" :src="be_isolated" alt="be" />
+        <img class="img-thumbnail" :src="pe_isolated" alt="pe" />
+        <img class="img-thumbnail" :src="te_isolated" alt="te" />
+        <img class="img-thumbnail" :src="te_accent_isolated" alt="te_accent" />
+        <img class="img-thumbnail" :src="se_isolated" alt="se" />
+        <img class="img-thumbnail" :src="jeem_isolated" alt="jeem" />
+        <img class="img-thumbnail" :src="che_isolated" alt="che" />
+        <img class="img-thumbnail" :src="dze_isolated" alt="dze" />
+        <img class="img-thumbnail" :src="tse_isolated" alt="tse" />
+        <img class="img-thumbnail" :src="he_isolated" alt="he" />
+        <img class="img-thumbnail" :src="xe_isolated" alt="xe" />
+        <img class="img-thumbnail" :src="daal_isolated" alt="daal" />
         <img
           class="img-thumbnail"
-          src="/assets/te_accent_isolated.png"
-          alt="te_accent"
-        />
-        <img class="img-thumbnail" src="/assets/se_isolated.png" alt="se" />
-        <img class="img-thumbnail" src="/assets/jeem_isolated.png" alt="jeem" />
-        <img class="img-thumbnail" src="/assets/che_isolated.png" alt="che" />
-        <img class="img-thumbnail" src="/assets/dze_isolated.png" alt="dze" />
-        <img class="img-thumbnail" src="/assets/tse_isolated.png" alt="tse" />
-        <img class="img-thumbnail" src="/assets/he_isolated.png" alt="he" />
-        <img class="img-thumbnail" src="/assets/xe_isolated.png" alt="xe" />
-        <img class="img-thumbnail" src="/assets/daal_isolated.png" alt="daal" />
-        <img
-          class="img-thumbnail"
-          src="/assets/daal_accent_isolated.png"
+          :src="daal_accent_isolated"
           alt="daal_accent"
         />
-        <img class="img-thumbnail" src="/assets/zaal_isolated.png" alt="zaal" />
-        <img class="img-thumbnail" src="/assets/re_isolated.png" alt="re" />
+        <img class="img-thumbnail" :src="zaal_isolated" alt="zaal" />
+        <img class="img-thumbnail" :src="re_isolated" alt="re" />
+        <img class="img-thumbnail" :src="re_accent_isolated" alt="re_accent" />
+        <img class="img-thumbnail" :src="ze_isolated" alt="ze" />
+        <img class="img-thumbnail" :src="zhe_isolated" alt="zhe" />
+        <img class="img-thumbnail" :src="ge_isolated" alt="ge" />
+        <img class="img-thumbnail" :src="seen_isolated" alt="seen" />
+        <img class="img-thumbnail" :src="sheen_isolated" alt="sheen" />
+        <img class="img-thumbnail" :src="xeen_isolated" alt="xeen" />
+        <img class="img-thumbnail" :src="saad_isolated" alt="saad" />
+        <img class="img-thumbnail" :src="zaad_isolated" alt="zaad" />
+        <img class="img-thumbnail" :src="twe_isolated" alt="twe" />
+        <img class="img-thumbnail" :src="zwe_isolated" alt="zwe" />
+        <img class="img-thumbnail" :src="ayn_isolated" alt="ayn" />
+        <img class="img-thumbnail" :src="ghayn_isolated" alt="ghayn" />
+        <img class="img-thumbnail" :src="fe_isolated" alt="fe" />
+        <img class="img-thumbnail" :src="qaaf_isolated" alt="qaaf" />
+        <img class="img-thumbnail" :src="kaaf_isolated" alt="kaaf" />
+        <img class="img-thumbnail" :src="gaaf_isolated" alt="gaaf" />
+        <img class="img-thumbnail" :src="laam_isolated" alt="laam" />
+        <img class="img-thumbnail" :src="meem_isolated" alt="meem" />
+        <img class="img-thumbnail" :src="noon_isolated" alt="noon" />
         <img
           class="img-thumbnail"
-          src="/assets/re_accent_isolated.png"
-          alt="re_accent"
-        />
-        <img class="img-thumbnail" src="/assets/ze_isolated.png" alt="ze" />
-        <img class="img-thumbnail" src="/assets/zhe_isolated.png" alt="zhe" />
-        <img class="img-thumbnail" src="/assets/ge_isolated.png" alt="ge" />
-        <img class="img-thumbnail" src="/assets/seen_isolated.png" alt="seen" />
-        <img
-          class="img-thumbnail"
-          src="/assets/sheen_isolated.png"
-          alt="sheen"
-        />
-        <img class="img-thumbnail" src="/assets/xeen_isolated.png" alt="xeen" />
-        <img class="img-thumbnail" src="/assets/saad_isolated.png" alt="saad" />
-        <img class="img-thumbnail" src="/assets/zaad_isolated.png" alt="zaad" />
-        <img class="img-thumbnail" src="/assets/twe_isolated.png" alt="twe" />
-        <img class="img-thumbnail" src="/assets/zwe_isolated.png" alt="zwe" />
-        <img class="img-thumbnail" src="/assets/ayn_isolated.png" alt="ayn" />
-        <img
-          class="img-thumbnail"
-          src="/assets/ghayn_isolated.png"
-          alt="ghayn"
-        />
-        <img class="img-thumbnail" src="/assets/fe_isolated.png" alt="fe" />
-        <img class="img-thumbnail" src="/assets/qaaf_isolated.png" alt="qaaf" />
-        <img class="img-thumbnail" src="/assets/kaaf_isolated.png" alt="kaaf" />
-        <img class="img-thumbnail" src="/assets/gaaf_isolated.png" alt="gaaf" />
-        <img class="img-thumbnail" src="/assets/laam_isolated.png" alt="laam" />
-        <img class="img-thumbnail" src="/assets/meem_isolated.png" alt="meem" />
-        <img class="img-thumbnail" src="/assets/noon_isolated.png" alt="noon" />
-        <img
-          class="img-thumbnail"
-          src="/assets/noon_accent_isolated.png"
+          :src="noon_accent_isolated"
           alt="noon_accent"
         />
-        <img class="img-thumbnail" src="/assets/waaw_isolated.png" alt="waaw" />
+        <img class="img-thumbnail" :src="waaw_isolated" alt="waaw" />
+        <img class="img-thumbnail" :src="he_small_isolated" alt="he_small" />
         <img
           class="img-thumbnail"
-          src="/assets/he_small_isolated.png"
-          alt="he_small"
-        />
-        <img
-          class="img-thumbnail"
-          src="/assets/naareena_ye_isolated.png"
+          :src="naareena_ye_isolated"
           alt="naareena_ye"
         />
+        alt="naareena_ye" />
         <img
           class="img-thumbnail"
-          src="/assets/tsargunda_ye_isolated.png"
+          :src="tsargunda_ye_isolated"
           alt="tsargunda_ye"
         />
+        alt="tsargunda_ye" />
+        <img class="img-thumbnail" :src="oogda_ye_isolated" alt="oogda_ye" />
+        alt="oogda_ye" />
         <img
           class="img-thumbnail"
-          src="/assets/oogda_ye_isolated.png"
-          alt="oogda_ye"
-        />
-        <img
-          class="img-thumbnail"
-          src="/assets/xudzeena_ye_isolated.png"
+          :src="xudzeena_ye_isolated"
           alt="xudzeena_ye"
         />
-        <img
-          class="img-thumbnail"
-          src="/assets/filee_ye_isolated.png"
-          alt="filee_ye"
-        />
+        alt="xudzeena_ye" />
+        <img class="img-thumbnail" :src="filee_ye_isolated" alt="filee_ye" />
+        alt="filee_ye" />
       </div>
     </div>
 
