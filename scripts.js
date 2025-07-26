@@ -30,8 +30,8 @@ fetch('/dictionary.json')
 
 function searchDictionary() {
   const query = searchBox.value.trim().toLowerCase();
-  const result = dictionary.find(entry => entry.pashto.includes(query) || entry.ipa.includes(query) || entry.english.toLowerCase().includes(query));
+  const results = dictionary.filter(entry => entry.pashto.includes(query) || entry.ipa.includes(query) || entry.english.toLowerCase().includes(query));
 
-  if (result) searchResults.innerHTML = `<p><span class="text-pashto">${result.pashto}</span> - ${result.ipa} - ${result.english}</p>`;
+  if (results.length > 0) searchResults.innerHTML = results.map(result => `<p><span class="text-pashto">${result.pashto}</span> ${result.type} - ${result.ipa} - ${result.english}</p>`).join("");
   else searchResults.innerHTML = "<p>No results found</p>";
 }
