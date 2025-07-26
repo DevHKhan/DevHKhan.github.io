@@ -7,6 +7,7 @@ import PashtoCard from "./assets/pashto_card.png";
 <template>
   <div id="app">
     <Header />
+    <router-view />
     <Footer />
   </div>
 </template>
