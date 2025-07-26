@@ -8,11 +8,13 @@
       started!
     </p>
 
-    <h2><a href="alphabet/">The Pashto Alphabet</a></h2>
-    <h2><a href="diacritics/">Diacritics</a></h2>
-    <h2><a href="forming-words/">Forming Words</a></h2>
-    <h2><a href="forming-sentences/">Forming Sentences</a></h2>
-    <h2><a href="pronouns/">Pronouns</a></h2>
-    <h2><a href="verbs/">Verbs</a></h2>
+    <h2><router-link to="alphabet/">The Pashto Alphabet</router-link></h2>
+    <h2><router-link to="diacritics/">Diacritics</router-link></h2>
+    <h2><router-link to="forming-words/">Forming Words</router-link></h2>
+    <h2>
+      <router-link to="forming-sentences/">Forming Sentences</router-link>
+    </h2>
+    <h2><router-link to="pronouns/">Pronouns</router-link></h2>
+    <h2><router-link to="verbs/">Verbs</router-link></h2>
   </div>
 </template>

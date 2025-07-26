@@ -73,7 +73,7 @@
 </template>
 
 <style scoped>
-body {
+.container-fluid {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
     url("../assets/mohammad-husaini-9UZ8sOnrnrs-unsplash.jpg");
   background-size: cover;
