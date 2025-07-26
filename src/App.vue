@@ -16,7 +16,7 @@ import PashtoCard from './assets/pashto_card.png'
         <div class="card-body">
           <h5 class="card-title">Learn Pashto</h5>
           <p class="card-text">Join me on a journey to learn the beautiful language of Pashto!!</p>
-          <a href="/pashto/" class="btn btn-primary">Let's Go!</a>
+          <router-link to="/pashto/" class="btn btn-primary">Let's Go!</router-link>
         </div>
       </div>
             
