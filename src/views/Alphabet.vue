@@ -326,7 +326,7 @@
       </div>
     </div>
 
-    <div class="bg-second-color vh-100"></div>
+    <div class="bg-first-color vh-100"></div>
   </div>
 </template>
 
