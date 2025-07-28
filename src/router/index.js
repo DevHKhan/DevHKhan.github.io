@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Pashto from "../views/Pashto.vue";
 import Lessons from "../views/Lessons.vue";
 import Alphabet from "../views/Alphabet.vue";
+import Diacritics from "../views/Diacritics.vue";
 
 const routes = [
   { path: "/", component: Home },
