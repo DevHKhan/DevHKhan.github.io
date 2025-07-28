@@ -94,23 +94,18 @@
           :src="naareena_ye_isolated"
           alt="naareena_ye"
         />
-        alt="naareena_ye" />
         <img
           class="img-thumbnail"
           :src="tsargunda_ye_isolated"
           alt="tsargunda_ye"
         />
-        alt="tsargunda_ye" />
         <img class="img-thumbnail" :src="oogda_ye_isolated" alt="oogda_ye" />
-        alt="oogda_ye" />
         <img
           class="img-thumbnail"
           :src="xudzeena_ye_isolated"
           alt="xudzeena_ye"
         />
-        alt="xudzeena_ye" />
         <img class="img-thumbnail" :src="filee_ye_isolated" alt="filee_ye" />
-        alt="filee_ye" />
       </div>
     </div>
 
@@ -181,7 +176,11 @@
           :src="tsargunda_ye_initial"
           alt="tsargunda_ye"
         />
-        alt="tsargunda_ye" />
+        <img
+          class="img-thumbnail"
+          :src="naareena_ye_initial"
+          alt="naareena_ye"
+        />
       </div>
     </div>
 
@@ -252,15 +251,12 @@
           :src="naareena_ye_medial"
           alt="naareena_ye"
         />
-        alt="naareena_ye" />
         <img
           class="img-thumbnail"
           :src="tsargunda_ye_medial"
           alt="tsargunda_ye"
         />
-        alt="tsargunda_ye" />
         <img class="img-thumbnail" :src="oogda_ye_medial" alt="oogda_ye" />
-        alt="oogda_ye" />
       </div>
     </div>
 
@@ -319,19 +315,14 @@
         <img class="img-thumbnail" :src="waaw_final" alt="waaw" />
         <img class="img-thumbnail" :src="he_small_final" alt="he_small" />
         <img class="img-thumbnail" :src="naareena_ye_final" alt="naareena_ye" />
-        alt="naareena_ye" />
         <img
           class="img-thumbnail"
           :src="tsargunda_ye_final"
           alt="tsargunda_ye"
         />
-        alt="tsargunda_ye" />
         <img class="img-thumbnail" :src="oogda_ye_final" alt="oogda_ye" />
-        alt="oogda_ye" />
         <img class="img-thumbnail" :src="xudzeena_ye_final" alt="xudzeena_ye" />
-        alt="xudzeena_ye" />
         <img class="img-thumbnail" :src="filee_ye_final" alt="filee_ye" />
-        alt="filee_ye" />
       </div>
     </div>
 
