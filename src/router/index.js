@@ -9,6 +9,7 @@ const routes = [
   { path: "/pashto", component: Pashto },
   { path: "/pashto/lessons", component: Lessons },
   { path: "/pashto/lessons/alphabet", component: Alphabet },
+  { path: "/pashto/lessons/diacritics", component: Diacritics },
 ];
 
 const router = createRouter({
