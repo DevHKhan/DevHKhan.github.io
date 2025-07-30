@@ -4,6 +4,7 @@ import Pashto from "../views/Pashto.vue";
 import Lessons from "../views/Lessons.vue";
 import Alphabet from "../views/Alphabet.vue";
 import Diacritics from "../views/Diacritics.vue";
+import FormingWords from "../views/FormingWords.vue";
 
 const routes = [
   { path: "/", component: Home },
@@ -11,6 +12,7 @@ const routes = [
   { path: "/pashto/lessons", component: Lessons },
   { path: "/pashto/lessons/alphabet", component: Alphabet },
   { path: "/pashto/lessons/diacritics", component: Diacritics },
+  { path: "/pashto/lessons/forming-words", component: FormingWords },
 ];
 
 const router = createRouter({
