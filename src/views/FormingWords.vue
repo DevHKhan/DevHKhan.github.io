@@ -46,7 +46,7 @@
 
       <figure class="text-center">
         <img
-          src="/assets/pashto.png"
+          :src="pashto"
           alt='The word "Pashto" in the Pashto
         script (no diacritics)'
         />
@@ -63,7 +63,7 @@
 
       <figure class="text-center">
         <img
-          src="/assets/pashto_with_diacritics.png"
+          :src="pashto_with_diacritics"
           alt='The word "Pashto" in
         the Pashto script (diacritics)'
         />
@@ -80,8 +80,9 @@
       <p>We have formed a word. Now, how do we pronounce it?</p>
 
       <p>
-        As I mentioned in my <a href="/pashto/lessons/diacritics/">lesson</a> on
-        diacritics, pronouncing a letter with a diacritic takes two steps.
+        As I mentioned in my
+        <a href="/#/pashto/lessons/diacritics/">lesson</a> on diacritics,
+        pronouncing a letter with a diacritic takes two steps.
       </p>
 
       <ol>
@@ -133,3 +134,8 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import pashto from "../assets/pashto.png";
+import pashto_with_diacritics from "../assets/pashto_with_diacritics.png";
+</script>
