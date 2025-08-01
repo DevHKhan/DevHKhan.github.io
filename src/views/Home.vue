@@ -4,10 +4,7 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
 </script>
 
 <template>
-  <div
-    class="container-fluid p-0"
-    style="background: linear-gradient(#6f4e37, #f4e3d7)"
-  >
+  <div class="container-fluid p-0 fw-bold">
     <div class="pt-5">
       <img
         :src="PashtoCalligraphy"
@@ -52,3 +49,9 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
     </div>
   </div>
 </template>
+
+<style scoped>
+.container-fluid {
+  background: linear-gradient(#6f4e37, #f4e3d7);
+}
+</style>
