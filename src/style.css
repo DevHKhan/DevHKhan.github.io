@@ -42,12 +42,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-a {
+a:not(.btn) {
   text-decoration: none;
   position: relative;
 }
 
-a::after {
+a:not(.btn)::after {
   content: "";
   position: absolute;
   left: 0;

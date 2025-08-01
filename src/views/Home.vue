@@ -1,21 +1,53 @@
 <script setup>
 import PashtoCard from "../assets/pashto_card.png";
+import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
 </script>
 
 <template>
-  <div class="container-fluid">
-    <h1>Home</h1>
+  <div
+    class="container-fluid p-0"
+    style="background: linear-gradient(#6f4e37, #f4e3d7)"
+  >
+    <div class="pt-5">
+      <img
+        :src="PashtoCalligraphy"
+        class="border border-5 border-dark rounded-circle d-block mx-auto"
+      />
+    </div>
 
-    <div class="card w-25 mx-auto mt-5">
-      <img :src="PashtoCard" class="card-img-top" alt="Pashto" />
-      <div class="card-body">
-        <h5 class="card-title">Learn Pashto</h5>
-        <p class="card-text">
-          Join me on a journey to learn the beautiful language of Pashto!!
+    <h1 class="display-1 text-center my-5">Welcome</h1>
+    <div class="col-md-6 mx-auto">
+      <p class="lead text-center">
+        This is my website where you can learn Pashto. I have created numerous
+        lessons to help you on your journey toward mastering this truly
+        beautiful language. Enjoy!
+      </p>
+    </div>
+
+    <div class="bg-first-color text-white p-3">
+      <div class="col-md-6 mx-auto">
+        <h1 class="display-1 mb-5">Pashto</h1>
+        <p class="lead text-center">
+          Let me take you on a journey to show you the true beauty of the Pashto
+          language.
         </p>
-        <router-link to="/pashto/" class="btn btn-primary"
-          >Let's Go!</router-link
+        <a
+          href="/#/pashto/"
+          class="btn btn-primary d-block mx-auto"
+          role="button"
         >
+          Take Me There
+        </a>
+      </div>
+    </div>
+
+    <div class="bg-second-color text-first-color p-3">
+      <div class="col-md-6 mx-auto">
+        <h1 class="display-1 mb-5">Interactive Lessons</h1>
+        <p class="lead text-center">
+          Lessons are designed thoughtfully with an interactive approach to
+          encourage active learning.
+        </p>
       </div>
     </div>
   </div>
