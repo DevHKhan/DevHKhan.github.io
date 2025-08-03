@@ -20,6 +20,7 @@
 
 h1,
 h2,
+h3,
 .display-1,
 .lead {
   font-weight: bold;
@@ -62,12 +63,12 @@ body {
   background-position: 0 0;
 }
 
-a:not(.btn) {
+a:not(.btn, .d-block) {
   text-decoration: none;
   position: relative;
 }
 
-a:not(.btn)::after {
+a:not(.btn, .d-block)::after {
   content: "";
   position: absolute;
   left: 0;
