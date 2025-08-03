@@ -22,46 +22,21 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
       <div
         class="d-flex flex-column flex-md-row justify-content-center gap-4 m-5"
       >
-        <a href="/#/pashto/" class="btn btn-lg flex-fill" role="button"
+        <a href="/pashto/" class="btn btn-lg flex-fill pashto" role="button"
           >Pashto</a
         >
-        <a href="/#/pashto/lessons/" class="btn btn-lg flex-fill" role="button"
+        <a
+          href="/pashto/lessons/"
+          class="btn btn-lg flex-fill lessons"
+          role="button"
           ><i class="fa-solid fa-book me-2"></i>Lessons</a
         >
-        <a
-          href="/#/pashto/dictionary/"
-          class="btn btn-lg flex-fill"
-          role="button"
+        <a href="/pashto/dictionary/" class="btn btn-lg flex-fill" role="button"
           >Dictionary</a
         >
       </div>
     </div>
 
-    <div class="bg-first-color text-white p-3">
-      <div class="col-md-6 mx-auto">
-        <h1 class="display-1 mb-5">Pashto</h1>
-        <p class="lead text-center">
-          Let me take you on a journey to show you the true beauty of the Pashto
-          language.
-        </p>
-        <a href="/#/pashto/" class="btn d-block mx-auto" role="button">
-          Take Me There
-        </a>
-      </div>
-    </div>
-
-    <div class="bg-second-color text-first-color p-3">
-      <div class="col-md-6 mx-auto">
-        <h1 class="display-1 mb-5">Interactive Lessons</h1>
-        <p class="lead text-center">
-          Lessons are designed thoughtfully with an interactive approach to
-          encourage active learning.
-        </p>
-        <a href="/#/pashto/lessons/" class="btn d-block mx-auto" role="button"
-          >Start Learning</a
-        >
-      </div>
-    </div>
     <div
       class="text-bg-dark overflow-hidden position-relative text-nowrap w-100"
     >
@@ -76,6 +51,35 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
             Learn | Read | Write | Speak |
           </h1>
         </span>
+      </div>
+    </div>
+
+    <div class="bg-first-color text-white p-3">
+      <div class="col-md-6 mx-auto">
+        <h1 class="display-1 mb-5">Pashto</h1>
+        <p class="lead text-center">
+          Let me take you on a journey to show you the true beauty of the Pashto
+          language.
+        </p>
+        <a href="/pashto/" class="btn btn-lg d-block pashto" role="button">
+          Take Me There
+        </a>
+      </div>
+    </div>
+
+    <div class="bg-second-color text-first-color p-3">
+      <div class="col-md-6 mx-auto">
+        <h1 class="display-1 mb-5">Interactive Lessons</h1>
+        <p class="lead text-center">
+          Lessons are designed thoughtfully with an interactive approach to
+          encourage active learning.
+        </p>
+        <a
+          href="/pashto/lessons/"
+          class="btn btn-lg d-block lessons"
+          role="button"
+          >Start Learning</a
+        >
       </div>
     </div>
 
@@ -99,6 +103,14 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
   }
 }
 
+.pashto {
+  cursor: url("../assets/pashto_cursor.png"), auto;
+}
+
+.lessons {
+  cursor: url("../assets/book-solid-full.png"), auto;
+}
+
 .container-fluid {
   background: linear-gradient(#6f4e37, #f4e3d7);
 }
@@ -107,6 +119,7 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
   display: inline-block;
   white-space: nowrap;
   animation: marqueeslide 20s linear infinite;
+  cursor: pointer;
 }
 
 .marquee-text {

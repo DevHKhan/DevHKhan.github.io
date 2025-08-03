@@ -89,14 +89,14 @@ a:hover::after {
 
 img {
   transition: transform 0.3s;
+  cursor: pointer;
 }
 
 img:hover {
-  cursor: pointer;
   transform: scale(1.2);
 }
 
-table:hover {
+table {
   cursor: pointer;
 }
 

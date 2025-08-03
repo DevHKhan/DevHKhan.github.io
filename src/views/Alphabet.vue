@@ -176,11 +176,6 @@
           :src="tsargunda_ye_initial"
           alt="tsargunda_ye"
         />
-        <img
-          class="img-thumbnail"
-          :src="naareena_ye_initial"
-          alt="naareena_ye"
-        />
       </div>
     </div>
 

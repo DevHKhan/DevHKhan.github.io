@@ -55,7 +55,7 @@
         diacritic, the sound of the letter itself is pronounced first, and then
         the diacritic's sound follows shortly after. (If you are unfamiliar with
         the alphabets and their sounds, I have a
-        <a href="/#/pashto/lessons/alphabet/">lesson</a> on that.)
+        <a href="/pashto/lessons/alphabet/">lesson</a> on that.)
       </p>
 
       <p>

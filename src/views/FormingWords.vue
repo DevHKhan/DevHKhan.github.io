@@ -81,7 +81,7 @@
 
       <p>
         As I mentioned in my
-        <a href="/#/pashto/lessons/diacritics/">lesson</a> on diacritics,
+        <a href="/pashto/lessons/diacritics/">lesson</a> on diacritics,
         pronouncing a letter with a diacritic takes two steps.
       </p>
 
