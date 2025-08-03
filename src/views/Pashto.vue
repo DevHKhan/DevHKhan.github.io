@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <button type="button" class="btn btn-primary w-100">
+      <button type="button" class="btn w-100">
         <i class="fa-solid fa-circle-info me-2"></i>Tell Me More
       </button>
 

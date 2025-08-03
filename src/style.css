@@ -18,6 +18,11 @@
   }
 }
 
+h1,
+h2 {
+  font-weight: bold;
+}
+
 h1 {
   text-align: center;
   animation: h1slide 1.5s ease-in-out;
@@ -46,10 +51,12 @@ body {
   background: linear-gradient(to right, blue, purple, blue);
   background-size: 200% 100%;
   background-position: 100% 0;
+  color: white;
   transition: background-position 0.5s ease-in-out;
 }
 
 .btn:hover {
+  color: white;
   background-position: 0 0;
 }
 

@@ -66,11 +66,11 @@
       <div class="d-flex flex-wrap gap-1 my-3">
         <div class="d-flex flex-wrap justify-content-center flex-column gap-1">
           <img class="img-thumbnail" :src="diacritic_q1" alt="Question 1" />
-          <button class="btn btn-primary my-3" @click="revealQ1">Answer</button>
+          <button class="btn my-3" @click="revealQ1">Answer</button>
         </div>
         <div class="d-flex flex-wrap justify-content-center flex-column gap-1">
           <img class="img-thumbnail" :src="diacritic_q2" alt="Question 2" />
-          <button class="btn btn-primary my-3" @click="revealQ2">Answer</button>
+          <button class="btn my-3" @click="revealQ2">Answer</button>
         </div>
       </div>
 

@@ -28,7 +28,7 @@
     </div>
 
     <button
-      class="btn btn-primary d-block mb-2 ms-3"
+      class="btn d-block mb-2 ms-3"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#isolated"
@@ -110,7 +110,7 @@
     </div>
 
     <button
-      class="btn btn-primary d-block mb-2 ms-3"
+      class="btn d-block mb-2 ms-3"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#initial"
@@ -185,7 +185,7 @@
     </div>
 
     <button
-      class="btn btn-primary d-block mb-2 ms-3"
+      class="btn d-block mb-2 ms-3"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#medial"
@@ -261,7 +261,7 @@
     </div>
 
     <button
-      class="btn btn-primary d-block mb-2 ms-3"
+      class="btn d-block mb-2 ms-3"
       type="button"
       data-bs-toggle="collapse"
       data-bs-target="#final"
