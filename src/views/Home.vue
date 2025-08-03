@@ -22,17 +22,23 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
       <div
         class="d-flex flex-column flex-md-row justify-content-center gap-4 m-5"
       >
-        <a href="/pashto/" class="btn btn-lg flex-fill pashto" role="button"
-          >Pashto</a
+        <router-link
+          to="/pashto/"
+          class="btn btn-lg flex-fill pashto"
+          role="button"
+          >Pashto</router-link
         >
-        <a
-          href="/pashto/lessons/"
+        <router-link
+          to="/pashto/lessons/"
           class="btn btn-lg flex-fill lessons"
           role="button"
-          ><i class="fa-solid fa-book me-2"></i>Lessons</a
+          ><i class="fa-solid fa-book me-2"></i>Lessons</router-link
         >
-        <a href="/pashto/dictionary/" class="btn btn-lg flex-fill" role="button"
-          >Dictionary</a
+        <router-link
+          to="/pashto/dictionary/"
+          class="btn btn-lg flex-fill"
+          role="button"
+          >Dictionary</router-link
         >
       </div>
     </div>
@@ -61,9 +67,13 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
           Let me take you on a journey to show you the true beauty of the Pashto
           language.
         </p>
-        <a href="/pashto/" class="btn btn-lg d-block pashto" role="button">
+        <router-link
+          to="/pashto/"
+          class="btn btn-lg d-block pashto"
+          role="button"
+        >
           Take Me There
-        </a>
+        </router-link>
       </div>
     </div>
 
@@ -74,11 +84,11 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
           Lessons are designed thoughtfully with an interactive approach to
           encourage active learning.
         </p>
-        <a
-          href="/pashto/lessons/"
+        <router-link
+          to="/pashto/lessons/"
           class="btn btn-lg d-block lessons"
           role="button"
-          >Start Learning</a
+          >Start Learning</router-link
         >
       </div>
     </div>

@@ -21,13 +21,13 @@
         <i class="fa-solid fa-circle-info me-2"></i>Tell Me More
       </button>
 
-      <a
-        href="#about"
+      <router-link
+        to="#about"
         class="d-block text-center text-white"
         style="margin-top: 250px; margin-bottom: 50px"
       >
         <i class="fa-solid fa-angle-down fa-2xl"></i>
-      </a>
+      </router-link>
 
       <h2 id="about">A Little Bit About Pashto</h2>
 
