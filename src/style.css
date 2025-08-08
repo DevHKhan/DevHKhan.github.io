@@ -50,10 +50,6 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-nav {
-  height: 4rem;
-}
-
 .btn {
   background: linear-gradient(to right, blue, purple, blue);
   background-size: 200% 100%;
