@@ -1,5 +1,5 @@
 <template>
-  <div id="scroll_progress" :style="{ width: progressWidth }"></div>
+  <div class="scroll-progress" :style="{ width: progressWidth }"></div>
 </template>
 
 <script setup>
@@ -25,7 +25,7 @@ window.onscroll = getScrollProgress;
 </script>
 
 <style scoped>
-#scroll_progress {
+.scroll-progress {
   width: 0%;
   height: 5px;
   background-color: #0d6efd;

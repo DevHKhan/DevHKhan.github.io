@@ -1,3 +1,7 @@
+<script setup>
+import ScrollProgress from "./ScrollProgress.vue";
+</script>
+
 <template>
   <div class="sticky-top">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -30,5 +34,6 @@
         </div>
       </div>
     </nav>
+    <ScrollProgress />
   </div>
 </template>

@@ -6,7 +6,6 @@ import Footer from "./components/Footer.vue";
 <template>
   <div id="app">
     <Header />
-    <ScrollProgress />
     <router-view />
     <Footer />
   </div>
