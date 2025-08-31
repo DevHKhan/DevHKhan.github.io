@@ -3,27 +3,31 @@
     <div class="p-3">
       <h1 class="mt-3">The Pashto Alphabet</h1>
 
-      <div class="d-flex flex-wrap flex-row mb-5">
-        <p style="max-width: 86%">
-          The alphabet of Pashto is based on a modified version of the Arabic
-          script. It has all of the base characters that you would find in the
-          Arabic alphabet, and on top of that, it has additional letters
-          exclusive to languages such as Pashto. Since Pashto has a number of
-          different dialects, some letters can have more than one acceptable
-          pronunciation. (I have included the different possible pronunciations
-          below the letters.) The pronunciation depends on which dialect you are
-          speaking. However, all of the letters are written the same way across
-          all dialects. Below are the alphabets that make up the Pashto
-          alphabet. Since Pashto is written from right to left, I have similarly
-          arranged the letters from right to left below. The colored image shows
-          how I have labeled the letters.
-        </p>
+      <div class="row align-items-center">
+        <div class="col-md-10">
+          <p>
+            The alphabet of Pashto is based on a modified version of the Arabic
+            script. It has all of the base characters that you would find in the
+            Arabic alphabet, and on top of that, it has additional letters
+            exclusive to languages such as Pashto. Since Pashto has a number of
+            different dialects, some letters can have more than one acceptable
+            pronunciation. (I have included the different possible
+            pronunciations below the letters.) The pronunciation depends on
+            which dialect you are speaking. However, all of the letters are
+            written the same way across all dialects. Below are the alphabets
+            that make up the Pashto alphabet. Since Pashto is written from right
+            to left, I have similarly arranged the letters from right to left
+            below. The colored image shows how I have labeled the letters.
+          </p>
+        </div>
 
-        <img
-          class="img-thumbnail"
-          :src="alphabet_example"
-          alt="Example of how I arranged the letters"
-        />
+        <div class="col-md-2">
+          <img
+            class="img-thumbnail"
+            :src="alphabet_example"
+            alt="Example of how I arranged the letters"
+          />
+        </div>
       </div>
     </div>
 

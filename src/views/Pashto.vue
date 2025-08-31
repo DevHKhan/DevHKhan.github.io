@@ -28,52 +28,53 @@
       <i class="fa-solid fa-angle-down fa-2xl"></i>
     </router-link>
 
-    <h2 id="about">A Little Bit About Pashto</h2>
+    <div class="text-bg-dark p-5 rounded opacity-75" id="about">
+      <h2 id="about">A Little Bit About Pashto</h2>
 
-    <p class="lead fw-bold">
-      Pashto is part of the Iranian division of the Indo-Iranian group of the
-      Indo-European language family. It has roughly 45 to 55 million speakers,
-      most of whom live in Pakistan and Afghanistan. The ethnic Pashtuns, who
-      also make up the largest ethnic group in Afghanistan, claim Pashto as
-      their native language.
-    </p>
+      <p class="lead fw-bold">
+        Pashto is part of the Iranian division of the Indo-Iranian group of the
+        Indo-European language family. It has roughly 45 to 55 million speakers,
+        most of whom live in Pakistan and Afghanistan. The ethnic Pashtuns, who
+        also make up the largest ethnic group in Afghanistan, claim Pashto as
+        their native language.
+      </p>
 
-    <h2>Why Learn Pashto?</h2>
+      <h2>Why Learn Pashto?</h2>
 
-    <p class="lead fw-bold">
-      If you ever decide to travel to Afghanistan or Pakistan, having Pashto in
-      your toolkit will prove to be very useful. It is the first language of
-      approximately 40% to 55% of Afghanistan's population, and it is the second
-      language of approximately 10% to 28% of Afghanistan's population. Roughly
-      15% of Pakistan's population speaks Pashto.
-    </p>
+      <p class="lead fw-bold">
+        If you ever decide to travel to Afghanistan or Pakistan, having Pashto
+        in your toolkit will prove to be very useful. It is the first language
+        of approximately 40% to 55% of Afghanistan's population, and it is the
+        second language of approximately 10% to 28% of Afghanistan's population.
+        Roughly 15% of Pakistan's population speaks Pashto.
+      </p>
 
-    <p class="lead fw-bold">
-      Due to the lack of widespread media, literature, and awareness of Pashto,
-      it might seem like Pashto does not have very many speakers. However,
-      interestingly, the number of Pashto speakers is roughly double the number
-      of Dutch speakers, and Dutch is certainly a respectible language! The
-      point is that Pashto has plenty of speakers.
-    </p>
+      <p class="lead fw-bold">
+        Due to the lack of widespread media, literature, and awareness of
+        Pashto, it might seem like Pashto does not have very many speakers.
+        However, interestingly, the number of Pashto speakers is roughly double
+        the number of Dutch speakers, and Dutch is certainly a respectible
+        language! The point is that Pashto has plenty of speakers.
+      </p>
 
-    <p class="lead fw-bold">
-      One of the main contributers to Pashto's lack of influence on today's
-      media is the fact that a sizeable portion of Pashto's speakers are
-      illiterate or have limited literacy. While more and more efforts are being
-      made to increase access to educational opportunities to learn Pashto
-      (especially in Afghanistan and Pakistan), there are still many Pashto
-      speakers who are not able to read or write Pashto. As a native speaker of
-      Pashto who has learned how to read, write, and speak Pashto, I thought
-      that I should make this website so that others, whether native speakers or
-      not, can learn Pashto to the greatest extent possible.
-    </p>
+      <p class="lead fw-bold">
+        One of the main contributers to Pashto's lack of influence on today's
+        media is the fact that a sizeable portion of Pashto's speakers are
+        illiterate or have limited literacy. While more and more efforts are
+        being made to increase access to educational opportunities to learn
+        Pashto (especially in Afghanistan and Pakistan), there are still many
+        Pashto speakers who are not able to read or write Pashto. As a native
+        speaker of Pashto who has learned how to read, write, and speak Pashto,
+        I thought that I should make this website so that others, whether native
+        speakers or not, can learn Pashto to the greatest extent possible.
+      </p>
+    </div>
   </div>
 </template>
 
 <style scoped>
 .container-fluid {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url("../assets/mohammad-husaini-9UZ8sOnrnrs-unsplash.jpg");
+  background-image: url("../assets/mohammad-husaini-9UZ8sOnrnrs-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

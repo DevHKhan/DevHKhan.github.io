@@ -33,6 +33,11 @@ h1 {
 
 h2 {
   animation: h2slide 1.5s ease-in-out;
+  margin-bottom: 1.25rem;
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 html,
