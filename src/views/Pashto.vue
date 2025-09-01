@@ -16,16 +16,8 @@
       </div>
     </div>
 
-    <button type="button" class="btn w-100">
+    <router-link to="#about" class="btn btn-lg w-100 mt-3 mb-5" role="button">
       <i class="fa-solid fa-circle-info me-2"></i>Tell Me More
-    </button>
-
-    <router-link
-      to="#about"
-      class="d-block text-center text-white"
-      style="margin-top: 250px; margin-bottom: 50px"
-    >
-      <i class="fa-solid fa-angle-down fa-2xl"></i>
     </router-link>
 
     <div class="text-bg-dark p-5 rounded opacity-75" id="about">

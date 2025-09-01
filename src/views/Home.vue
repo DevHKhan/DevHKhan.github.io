@@ -12,7 +12,12 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
       />
     </div>
 
-    <h1 class="display-1 my-5">Welcome</h1>
+    <h1
+      class="display-1 my-5"
+      style="filter: contrast(115%) brightness(105%) saturate(115%)"
+    >
+      Welcome
+    </h1>
     <div class="col-md-6 mx-auto">
       <p class="lead text-center">
         This is my website where you can learn Pashto. I have created numerous
