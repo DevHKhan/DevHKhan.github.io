@@ -46,6 +46,7 @@
 
       <figure class="text-center">
         <img
+          class="img-thumbnail"
           :src="pashto"
           alt='The word "Pashto" in the Pashto
         script (no diacritics)'
@@ -63,6 +64,7 @@
 
       <figure class="text-center">
         <img
+          class="img-thumbnail"
           :src="pashto_with_diacritics"
           alt='The word "Pashto" in
         the Pashto script (diacritics)'

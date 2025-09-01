@@ -36,7 +36,8 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
-p {
+p,
+li {
   font-size: 1.25rem;
 }
 
@@ -68,12 +69,13 @@ body {
   background-position: 0 0;
 }
 
-a:not(.btn, .d-block) {
+a:not(.btn, .d-block, .navbar-brand, .nav-link) {
+  color: #6abce2;
   text-decoration: none;
   position: relative;
 }
 
-a:not(.btn, .d-block)::after {
+a:not(.btn, .d-block, .navbar-brand, .nav-link)::after {
   content: "";
   position: absolute;
   left: 0;
