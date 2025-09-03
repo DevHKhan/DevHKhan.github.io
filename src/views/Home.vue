@@ -12,10 +12,7 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
       />
     </div>
 
-    <h1
-      class="display-1 my-5"
-      style="filter: contrast(115%) brightness(105%) saturate(115%)"
-    >
+    <h1 class="display-1 my-5 animate__animated animate__fadeInDown">
       Welcome
     </h1>
     <div class="col-md-6 mx-auto">
