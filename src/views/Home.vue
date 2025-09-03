@@ -12,7 +12,9 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
       />
     </div>
 
-    <h1 class="display-1 my-5 animate__animated animate__fadeInDown">
+    <h1
+      class="display-1 my-5 animate__animated animate__fadeInDown animate__slow"
+    >
       Welcome
     </h1>
     <div class="col-md-6 mx-auto">
@@ -22,7 +24,7 @@ import PashtoCalligraphy from "../assets/pashto_calligraphy.png";
         beautiful language. Enjoy!
       </p>
       <div
-        class="d-flex flex-column flex-md-row justify-content-center gap-4 m-5"
+        class="d-flex flex-column flex-md-row justify-content-center gap-5 m-5"
       >
         <router-link
           to="/pashto/"

@@ -8,6 +8,7 @@ h3,
 
 h1 {
   text-align: center;
+  animation: fadeInDown 2s;
 }
 
 p,
@@ -36,6 +37,7 @@ body {
   background-position: 100% 0;
   color: white;
   transition: background-position 0.5s ease-in-out;
+  animation: bounceIn 2s;
 }
 
 .btn:hover {

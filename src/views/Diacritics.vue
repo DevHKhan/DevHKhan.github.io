@@ -27,21 +27,17 @@
 
       <img
         class="img-thumbnail"
-        src="../assets/diacritic_example.png"
+        :src="diacritic_example"
         alt="Example of how I arranged the diacritics"
       />
 
       <div
         class="d-flex flex-wrap justify-content-end flex-row-reverse gap-1 my-3"
       >
-        <img class="img-thumbnail" src="../assets/zwar.png" alt="zwar" />
-        <img
-          class="img-thumbnail"
-          src="../assets/zwarakay.png"
-          alt="zwarakay"
-        />
-        <img class="img-thumbnail" src="../assets/zer.png" alt="zer" />
-        <img class="img-thumbnail" src="../assets/pex.png" alt="pex" />
+        <img class="img-thumbnail" :src="zwar" alt="zwar" />
+        <img class="img-thumbnail" :src="zwarakay" alt="zwarakay" />
+        <img class="img-thumbnail" :src="zer" alt="zer" />
+        <img class="img-thumbnail" :src="pex" alt="pex" />
       </div>
     </div>
 
@@ -90,6 +86,11 @@
 <script setup>
 import { ref } from "vue";
 
+import diacritic_example from "../assets/diacritic_example.png";
+import zwar from "../assets/zwar.png";
+import zwarakay from "../assets/zwarakay.png";
+import zer from "../assets/zer.png";
+import pex from "../assets/pex.png";
 import diacritic_q1 from "../assets/diacritic_q1.png";
 import diacritic_q2 from "../assets/diacritic_q2.png";
 import diacritic_a1 from "../assets/diacritic_a1.png";
