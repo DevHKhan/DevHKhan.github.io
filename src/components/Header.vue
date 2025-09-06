@@ -1,4 +1,5 @@
 <script setup>
+import ThemeToggle from "./ThemeToggle.vue";
 import ScrollProgress from "./ScrollProgress.vue";
 </script>
 
@@ -31,6 +32,9 @@ import ScrollProgress from "./ScrollProgress.vue";
               >
             </li>
           </ul>
+          <div class="ms-auto">
+            <ThemeToggle />
+          </div>
         </div>
       </div>
     </nav>

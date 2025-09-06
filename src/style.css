@@ -32,7 +32,7 @@ body {
 }
 
 .btn {
-  background: linear-gradient(to right, blue, purple, blue);
+  background: var(--button-color);
   background-size: 200% 100%;
   background-position: 100% 0;
   color: white;
@@ -46,9 +46,10 @@ body {
 }
 
 a:not(.btn, .d-block, .navbar-brand, .nav-link) {
-  color: #6abce2;
+  color: var(--link-color);
   text-decoration: none;
   position: relative;
+  animation: tada 2s;
 }
 
 a:not(.btn, .d-block, .navbar-brand, .nav-link)::after {
@@ -85,18 +86,43 @@ ol[class="breadcrumb"] {
 
 .text-pashto {
   font-family: "Amiri", sans-serif;
+  font-size: 1.25rem;
   direction: rtl;
   unicode-bidi: isolate;
 }
 
 .bg-first-color {
-  background-color: #31473a;
+  background-color: var(--bg-first);
 }
 
 .bg-second-color {
-  background-color: #bdd5ce;
+  background-color: var(--bg-second);
 }
 
 .text-first-color {
-  color: #31473a;
+  color: var(--text-first);
+}
+
+.scroll-progress {
+  width: 0%;
+  height: 5px;
+  background: var(--scroll-progress-color);
+}
+
+:root {
+  --bg-first: #31473a;
+  --bg-second: #bdd5ce;
+  --text-first: #31473a;
+  --scroll-progress-color: linear-gradient(to right, #ff00ae, #2f00ff);
+  --link-color: #6abce2;
+  --button-color: linear-gradient(to right, blue, purple, blue);
+}
+
+[data-bs-theme="dark"] {
+  --bg-first: #202236;
+  --bg-second: #30354b;
+  --text-first: #eeeeee;
+  --scroll-progress-color: linear-gradient(to right, #ffc107, #4bc40e);
+  --link-color: #ffb380;
+  --button-color: linear-gradient(to right, #3a3d98, #6d28d9, #3a3d98);
 }

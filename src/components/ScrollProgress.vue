@@ -23,11 +23,3 @@ onUnmounted(() => {
 
 window.onscroll = getScrollProgress;
 </script>
-
-<style scoped>
-.scroll-progress {
-  width: 0%;
-  height: 5px;
-  background-color: #0d6efd;
-}
-</style>

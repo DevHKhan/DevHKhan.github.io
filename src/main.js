@@ -7,4 +7,7 @@ import "./style.css";
 import App from "./App.vue";
 import router from "./router";
 
+const themeSaved = localStorage.getItem("theme");
+document.documentElement.setAttribute("data-bs-theme", themeSaved || "light");
+
 createApp(App).use(router).mount("#app");
